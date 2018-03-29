@@ -29,7 +29,22 @@
 
                 <!--Карта-->
                 <?= $this->render('_map', $country) ?>
+                    <hr>
+                <figure class="figure d-block">
+                    <div class="video-cover box-shadow">
+                        <img alt="Sundown in Bahrain" src="https://i.vimeocdn.com/video/475273328_1280x720.jpg" class="bg-image"/>
+                        <div class="video-play-icon">
+                            <i class="icon-controller-play"></i>
+                        </div>
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" data-src="https://player.vimeo.com/video/95373684?autoplay=1" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <figcaption class="figure-caption text-right">Sundown in Bahrain<br>© Brandon Li 2014</figcaption>
+                </figure>
 
+
+                <hr>
                 <figure class="figure d-block">
                     <div class="video-cover box-shadow">
                         <img alt="Bahrain Timelapse - National Day Version" src="https://i.vimeocdn.com/video/386238942_1280x720.jpg" class="bg-image"/>
@@ -355,8 +370,7 @@
                     </ul>
                 </div>
             </div>
-
-
+        </div>
     </div>
 </section>
 <section id="safety" class="bg-white">
